@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 11:30:45 by mring             #+#    #+#             */
-/*   Updated: 2024/10/14 12:47:02 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 12:32:44 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ char	*ft_substr(char const *s, int start, size_t len)
 	i = 0;
 	if (start >= ft_strlen(s) || start < 0)
 		return (ft_strdup(""));
-	if (len > ft_strlen(s) - (size_t) start)
-		len = ft_strlen(s) - (size_t) start;
+	if (len > ft_strlen(s) - (size_t)start)
+		len = ft_strlen(s) - (size_t)start;
 	while (i < start)
 		i++;
 	substr = ft_calloc(len + 1, sizeof(char));

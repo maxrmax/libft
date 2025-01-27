@@ -6,16 +6,16 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 13:40:34 by mring             #+#    #+#             */
-/*   Updated: 2024/10/23 16:36:06 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 11:40:23 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
+// # include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
+// # include <string.h>
 # include <unistd.h>
 
 typedef struct s_list

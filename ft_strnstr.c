@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 11:12:29 by mring             #+#    #+#             */
-/*   Updated: 2024/10/11 13:26:24 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 12:34:50 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t length)
 	while (haystack[i_hay] && i_nee < length)
 	{
 		while (haystack[i_hay + i_nee] == needle[i_nee] && haystack[i_hay
-				+ i_nee] && i_hay + i_nee < length)
+			+ i_nee] && i_hay + i_nee < length)
 		{
 			i_nee++;
 			if (needle[i_nee] == 0)
