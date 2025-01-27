@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 16:03:20 by mring             #+#    #+#             */
-/*   Updated: 2024/10/23 12:23:11 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 13:03:42 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	ft_putnbr_fd(int n, int fd)
 		n = -n;
 		write(fd, "-", 1);
 	}
-	if (n >= 10)
+	if (n > 9)
 	{
 		ft_putnbr_fd(n / 10, fd);
 		ft_putnbr_fd(n % 10, fd);

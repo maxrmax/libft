@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 11:37:55 by mring             #+#    #+#             */
-/*   Updated: 2024/10/10 11:08:03 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 13:03:13 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,6 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-//
 
 // int	main(void)
 // {

@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 15:45:48 by mring             #+#    #+#             */
-/*   Updated: 2024/10/09 15:31:08 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 13:01:57 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_isprint(int print)
 	return (0);
 }
 
-//checks if the passed value is a printable character
+// checks if the passed value is a printable character
 //(between 32 and 126 ascii table)
 
 // #include <stdio.h>

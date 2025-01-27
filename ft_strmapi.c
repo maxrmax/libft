@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 13:56:09 by mring             #+#    #+#             */
-/*   Updated: 2024/10/22 15:26:16 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 13:00:50 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,18 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // assign the new char of the current position in string
 // with the char that was run through the function.
 // return, result.
+
+// char	functionname(unsigned int x, char c)
+// {
+// 	(void) x;
+// 	(void) c;
+// 	return ('g');
+// }
+
+// int	main(void)
+// {
+// 	char *s = ft_strmapi("some string", functionname);
+// 	printf("s: %s\n", s);
+// }
+
+// // for every char in a string call f, return value of that into a new string

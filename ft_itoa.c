@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 15:24:06 by mring             #+#    #+#             */
-/*   Updated: 2024/10/23 12:28:39 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 13:02:06 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,12 +60,14 @@ char	*ft_itoa(int n)
 
 // int	main(void)
 // {
-// 	int inted;
-// 	char *string;
+// 	int		inter;
+// 	char	*string;
 
-// 	inted = 0;
-// 	printf("int: %d\n", inted);
-// 	string = ft_itoa(inted);
-// 	printf("str: %s\n", string);
+// 	inter = -0;
+// 	string = ft_itoa(inter);
+// 	if (string[0] == 0)
+// 		printf("string is NULL");
+// 	else
+// 		printf("string:%s", string);
 // 	free(string);
 // }

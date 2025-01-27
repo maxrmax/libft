@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:17:49 by mring             #+#    #+#             */
-/*   Updated: 2024/10/09 15:58:05 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 13:03:24 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,12 @@ void	*ft_memset(void *b, int c, size_t len)
 }
 
 // DESCRIPTION
-//      The memset() function writes len bytes of value c 
+//      The memset() function writes len bytes of value c
 // (converted to an unsigned char) to the string b.
 // we create a void function named memset. The passed arguments are the string,
 // as a void pointer -> void *b,
 // the ascii character to set -> int c (ASCII number value),
-//and the length to replace in size_t
+// and the length to replace in size_t
 
 // #include <stdio.h>
 // int	main(void)

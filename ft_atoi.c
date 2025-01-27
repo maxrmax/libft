@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 13:27:45 by mring             #+#    #+#             */
-/*   Updated: 2024/10/11 13:59:17 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 12:50:35 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ int	ft_atoi(const char *str)
 	i = 0;
 	result = 0;
 	vorzeichen = 1;
-	while (str[i] == 9 || str[i] == 10 || str[i] == 11 \
-			|| str[i] == 12 || str[i] == 13 || str[i] == 32)
+	while (str[i] == 9 || str[i] == 10 || str[i] == 11 || str[i] == 12
+		|| str[i] == 13 || str[i] == 32)
 		i++;
 	if (str[i] == '+' && str[i + 1] != '-')
 		i++;
@@ -40,3 +40,17 @@ int	ft_atoi(const char *str)
 	result *= vorzeichen;
 	return (result);
 }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+// int	main(void)
+// {
+// 	char	*str;
+// 	int		result;
+
+// 	str = "  2147483648  ";
+// 	result = atoi(str);
+// 	printf("Before: %s, After: %i\n", str, result);
+// 	result = ft_atoi(str);
+// 	printf("Before: %s, After: %i\n", str, result);
+// }

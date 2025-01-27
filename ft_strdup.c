@@ -6,7 +6,7 @@
 /*   By: mring <mring@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 09:59:20 by mring             #+#    #+#             */
-/*   Updated: 2024/10/14 10:47:27 by mring            ###   ########.fr       */
+/*   Updated: 2025/01/27 12:58:52 by mring            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ char	*ft_strdup(const char *s1)
 // {
 // 	char *str;
 // 	str = "test";
-// 	printf("nn:%s \n", strdup(str)); 
-// 	printf("ft:%s \n", ft_strdup(str)); 
+// 	printf("nn:%s \n", strdup(str));
+// 	printf("ft:%s \n", ft_strdup(str));
 // }
